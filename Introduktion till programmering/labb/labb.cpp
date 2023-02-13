@@ -1,9 +1,8 @@
 
-// Skrivet av: Nasir Alizade
 // Skapat datum: 2021-11-25
 // Senast ändrat: 2021-11-29
 // Kurs: datateknik (A)
-// Handledare: Jan-Erik Jonsson
+
 
 #include <iostream>
 #include <sstream>
@@ -19,13 +18,13 @@ while (cin>>tal1)
     stringstream conv(tal1); //här omvandlar jag från text till tal.
     conv>>tal;
     if(conv.fail()){
-        cout<<"fel inmatning!!"<<endl; //om nånting går fel så skrivs det ut fel inmatning.
+        cout<<"fel inmatning!!"<<endl; //om nånting går fel så skrivs det ut 'fel inmatning'.
         return 0;
 
     }
      antal++;
      sum=sum+tal;
-    if(antal==1){ //om man skriver bara ett tal så max och min den värdet.antal är noll från början.
+    if(antal==1){ //om man skriver bara ett tal så max och min är den värdet.'antal' är noll från början.
         max=tal;
         min=tal;
     }
