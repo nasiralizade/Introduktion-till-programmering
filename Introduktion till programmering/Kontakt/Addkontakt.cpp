@@ -1,7 +1,6 @@
 /*
-Namn: Nasir Alizade (naal2001)
+
 Kurs: Introduktion till progarmmering
-Handledare: Nayeb Maleki
 Projekt: contacts
 */
 #include <iostream>
@@ -109,12 +108,12 @@ void Addkontakt()
     getline(cin, övrigt);
     int nummer = 0, räknare = 0;
     ifstream in("kontaktbok.txt");
-    // Läser kontakter som finns i textfilen.för att ta reda hur många kontakter finns redan i textfilen.
+    // Läser kontakter som finns i textfilen.
     while (in >> räknare >> Fname2 >> Lname2 >> gatunamn2 >> gatunummer2 >> postnummer2 >> ort2 >> email2 >> telefonnummer2 >> födelsedag2 >> övrigt2)
     {
         if (räknare == 100)
         {
-            cout << "Kontak boken är fullt, kan ej läggas mer kontakter." << endl;
+            cout << "Kontakt boken är fullt, kan ej läggas mer kontakter." << endl;
             main();
         }
         else
