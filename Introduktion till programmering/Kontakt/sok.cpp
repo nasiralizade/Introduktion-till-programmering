@@ -1,7 +1,5 @@
 /*
-Namn: Nasir Alizade (naal2001)
 Kurs: Introduktion till progarmmering
-Handledare: Nayeb Maleki
 Projekt: contacts
 */
 #include <iostream>
@@ -35,7 +33,7 @@ void sok()
         }
         
         // den här sökning algoritm kallas för Naive Algorithm.
-        // Varje karaktar jämförs inmatningen.
+        
         int ord = inmatning.length();
         int boken = lista.length();
         for (int i = 0; i <= boken - ord; i++)
