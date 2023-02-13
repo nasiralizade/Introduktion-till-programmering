@@ -1,6 +1,4 @@
-// Namn: Nasir Alizade (naal2001)
 //kurs: Datateknik(A)
-//Handledare: Jan-Erik 
 #include <iostream>
 #include <fstream>
 #include <string>
