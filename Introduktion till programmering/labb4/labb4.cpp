@@ -1,6 +1,6 @@
-// Nasir ALizade (naal2001)
+
 // Kurs: Datateknik(A)
-// Handledare: Jan-Erik Jonsson
+
 
 #include <iostream>
 #include <fstream>
