@@ -1,7 +1,5 @@
 /*
-Namn: Nasir Alizade (naal2001)
 Kurs: Introduktion till progarmmering
-Handledare: Nayeb Maleki
 Projekt: contacts
 */
 #include <iostream>
